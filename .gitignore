@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments and secrets
+.env
+.env.*
+.venv/
+venv/
+*.key
+*.pem
+secrets*
+credentials*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated outputs (recreated by running the scripts)
+model_output.txt
+explore_output.txt
+cv_summary.csv
+cv_by_year.csv
+test_predictions.csv
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
